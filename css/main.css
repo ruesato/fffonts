@@ -20,16 +20,15 @@ body {
 
 /* =Links ------------------------------------ */
 a {
-	border-bottom: 1px dotted #fff;
-	text-decoration: none;
+	color: #333;
 }
 
 a:hover {
-	border-bottom: 1px solid #fff;
-	text-decoration: none;
+	color: #000;
 }
 
 .light a {
+	border-color: #fff;
 	color: #fff;
 }
 
@@ -129,6 +128,19 @@ li {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+.license {
+	border-left: 1px solid #333;
+	font-weight: 300;
+	margin-left: 10px;
+	padding-left: 10px;
+}
+
+.blue .license,
+.coral .license,
+.green .license,
+.slate .license {
+	border-color: #fff;
+}
 
 .center {
 	text-align: center;
