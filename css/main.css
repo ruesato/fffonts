@@ -14,10 +14,12 @@ body {
 	line-height: 24px;
 }
 
+.jumbotron {
+	padding: 40px 0 60px;
+}
 
 
-
-/* =Decoratino ----------------- */
+/* =Decoration ----------------- */
 .alfa-one {
 	font-family: 'Alfa Slab One', cursive;
 }
@@ -41,17 +43,17 @@ body {
 	font-family: 'Ubuntu', sans-serif;
 }
 
-p.ubuntu {
-	font-size: 15px;
-}
+	p.ubuntu {
+		font-size: 15px;
+	}
 
 .eb-garamond {
 	font-family: 'EB Garamond', serif;
 }
 
-p.eb-garamond {
-	font-size: 18px;
-}
+	p.eb-garamond {
+		font-size: 18px;
+	}
 
 .titillium {
 	font-family: 'Titillium Web', sans-serif;
@@ -62,9 +64,9 @@ p.eb-garamond {
 	font-family: 'Oxygen', sans-serif;
 }
 
-p.oxygen {
-	font-size: 15px;
-}
+	p.oxygen {
+		font-size: 15px;
+	}
 
 .cuprum {
 	font-family: 'Cuprum', sans-serif;
@@ -74,9 +76,9 @@ p.oxygen {
 	font-family: 'Open Sans', sans-serif;
 }
 
-p.open-sans {
-	font-size: 15px;
-}
+	p.open-sans {
+		font-size: 15px;
+	}
 
 .quattrocento {
 	font-family: 'Quattrocento', serif;
@@ -94,12 +96,62 @@ p.open-sans {
 	font-family: 'Roboto', sans-serif;
 }
 
-p.roboto {
-	font-size: 14px;
-}
+	p.roboto {
+		font-size: 14px;
+	}
 
 .yanone {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+/*.center {
+	text-align: center;
+}*/
+
+
+/* =Colors ----------------------------------- */
+.blue {
+	background-color: cornflowerblue;
+	color: #fff;
+}
+
+.coral {
+	background-color: coral;
+	color: #fff;
+}
+
+.gold {
+	background-color: gold;
+}
+
+.gray {
+	background-color: lightsteelblue;
+}
+
+.green {
+	background-color: forestgreen;
+	color: #fff;
+}
+
+.lightgray {
+	background-color: gainsboro;
+}
+
+.lightgreen {
+	background-color: lawngreen;
+}
+
+.orange {
+	background-color: ;
+}
+
+.slate {
+	background-color: slategray;
+	color: #fff;
+}
+
+.smoke {
+	background-color: whitesmoke;
 }
 
 
