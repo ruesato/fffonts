@@ -1,22 +1,106 @@
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
+/*
+ * fffonts custom styles
+ * author: 		ruesato
+ * version: 	0.7
+*/
 
 
 
 
 
+/* =Structure ------------------ */
+body {
+	font-size: 16px;
+	line-height: 24px;
+}
 
 
 
 
+/* =Decoratino ----------------- */
+.alfa-one {
+	font-family: 'Alfa Slab One', cursive;
+}
 
+.source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+
+.pt-sans {
+	font-family: 'PT Sans', sans-serif;
+}
+.pt-serif {
+	font-family: 'PT Serif', serif;
+}
+
+.ubuntu {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+p.ubuntu {
+	font-size: 15px;
+}
+
+.eb-garamond {
+	font-family: 'EB Garamond', serif;
+}
+
+p.eb-garamond {
+	font-size: 18px;
+}
+
+.titillium {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+
+.oxygen {
+	font-family: 'Oxygen', sans-serif;
+}
+
+p.oxygen {
+	font-size: 15px;
+}
+
+.cuprum {
+	font-family: 'Cuprum', sans-serif;
+}
+
+.open-sans {
+	font-family: 'Open Sans', sans-serif;
+}
+
+p.open-sans {
+	font-size: 15px;
+}
+
+.quattrocento {
+	font-family: 'Quattrocento', serif;
+}
+
+.oswald {
+	font-family: 'Oswald', sans-serif;
+}
+
+.bree-serif {
+	font-family: 'Bree Serif', serif;
+}
+
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+
+p.roboto {
+	font-size: 14px;
+}
+
+.yanone {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 
 
 
