@@ -8,7 +8,7 @@
 
 
 
-/* =Structure ------------------ */
+/* =Structure -------------------------------- */
 body {
 	font-size: 16px;
 	line-height: 24px;
@@ -18,34 +18,42 @@ body {
 	padding: 40px 0 60px;
 }
 
+/* =Links ------------------------------------ */
+a {
+	border-bottom: 1px dotted #fff;
+	text-decoration: none;
+}
 
-/* =Decoration ----------------- */
+a:hover {
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+}
+
+.light a {
+	color: #fff;
+}
+
+/* =Lists ------------------------------------ */
+ul {
+	margin-left: 0;
+}
+
+li {
+	list-style: none;
+}
+
+/* =Decoration ------------------------------- */
 .alfa-one {
 	font-family: 'Alfa Slab One', cursive;
 }
 
-.source-sans {
-	font-family: 'Source Sans Pro', sans-serif;
+.bree-serif {
+	font-family: 'Bree Serif', serif;
 }
 
-.lato {
-	font-family: 'Lato', sans-serif;
+.cuprum {
+	font-family: 'Cuprum', sans-serif;
 }
-
-.pt-sans {
-	font-family: 'PT Sans', sans-serif;
-}
-.pt-serif {
-	font-family: 'PT Serif', serif;
-}
-
-.ubuntu {
-	font-family: 'Ubuntu', sans-serif;
-}
-
-	p.ubuntu {
-		font-size: 15px;
-	}
 
 .eb-garamond {
 	font-family: 'EB Garamond', serif;
@@ -55,21 +63,10 @@ body {
 		font-size: 18px;
 	}
 
-.titillium {
-	font-family: 'Titillium Web', sans-serif;
-	font-weight: 300;
-}
 
-.oxygen {
-	font-family: 'Oxygen', sans-serif;
-}
 
-	p.oxygen {
-		font-size: 15px;
-	}
-
-.cuprum {
-	font-family: 'Cuprum', sans-serif;
+.lato {
+	font-family: 'Lato', sans-serif;
 }
 
 .open-sans {
@@ -80,16 +77,27 @@ body {
 		font-size: 15px;
 	}
 
-.quattrocento {
-	font-family: 'Quattrocento', serif;
-}
-
 .oswald {
 	font-family: 'Oswald', sans-serif;
 }
 
-.bree-serif {
-	font-family: 'Bree Serif', serif;
+.oxygen {
+	font-family: 'Oxygen', sans-serif;
+}
+
+	p.oxygen {
+		font-size: 15px;
+	}
+
+.pt-sans {
+	font-family: 'PT Sans', sans-serif;
+}
+.pt-serif {
+	font-family: 'PT Serif', serif;
+}
+
+.quattrocento {
+	font-family: 'Quattrocento', serif;
 }
 
 .roboto {
@@ -100,13 +108,31 @@ body {
 		font-size: 14px;
 	}
 
+.source-sans {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.titillium {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 300;
+}
+
+.ubuntu {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+	p.ubuntu {
+		font-size: 15px;
+	}
+
 .yanone {
 	font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
-/*.center {
+
+.center {
 	text-align: center;
-}*/
+}
 
 
 /* =Colors ----------------------------------- */
@@ -114,6 +140,12 @@ body {
 	background-color: cornflowerblue;
 	color: #fff;
 }
+	.blue a,
+	.coral a,
+	.green a,
+	.slate a {
+		color: #fff;
+	}
 
 .coral {
 	background-color: coral;
